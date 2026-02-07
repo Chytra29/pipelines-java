@@ -13,3 +13,4 @@ steps:
 - script: |
     echo "Welcome to Shell "
     echo "This is my first custom shell command"
+  displayName: "EXECUTE SHELL"
