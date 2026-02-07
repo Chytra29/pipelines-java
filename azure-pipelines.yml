@@ -17,3 +17,8 @@ steps:
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
+
+- task: PublishCodeCoverageResults@2
+  inputs:
+    summaryFileLocation: '"$(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml"'
+    failIfCoverageEmpty: true
