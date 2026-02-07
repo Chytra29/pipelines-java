@@ -11,5 +11,5 @@ pool:
 
 steps:
 - script: |
-    "Welcome to Shell "
-    "This is my first custom shell command"
+    echo "Welcome to Shell "
+    echo "This is my first custom shell command"
